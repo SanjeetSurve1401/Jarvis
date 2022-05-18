@@ -201,10 +201,10 @@ def SpeedTest():
         Speak(f"The Downloading Speed is {correctDown} & The Uploading Spped is {correctUpload} Mbps")
 
 def TaskExe():
-    greet()
-    time()
-    Temperature()
-    Speak("Jarvis is at your service")
+    #greet()
+    #time()
+    #Temperature()
+    #Speak("Jarvis is at your service")
 
     while True:
         query = takecommand()
