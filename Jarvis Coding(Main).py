@@ -27,7 +27,7 @@ Assistant.setProperty('voices',voices[0].id)
 Assistant.setProperty('rate',190)
 
 def Speak(audio):
-    print("  ")
+    print("   ")
     Assistant.say(audio)
     print(f": {audio}")
     print("   ")
